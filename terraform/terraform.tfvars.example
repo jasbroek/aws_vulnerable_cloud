@@ -1,0 +1,12 @@
+# Whitelist IPs, configure your own
+connection_ips = ["1.2.3.4/32"] 
+
+# Region to deploy the resources
+region = "eu-west-3"
+
+# AWS CLI profile to use for communicating with AWS API
+profile = "default"
+
+# Some unique ID, used in naming of functions/buckets
+# Only letters and digits are allowed, NO dash/space/underscore!
+unique_id = "lbhtbgzr1337"
